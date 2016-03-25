@@ -1,0 +1,12 @@
+<hibernate-mapping>
+
+    <class name="events.Person" table="PERSON">
+        <id name="id" column="PERSON_ID">
+            <generator class="native"/>
+        </id>
+        <property name="age"/>
+        <property name="firstname"/>
+        <property name="lastname"/>
+    </class>
+
+</hibernate-mapping>
